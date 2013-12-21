@@ -1,9 +1,11 @@
+/* line 3, ../sass/style.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
 }
 
+/* line 11, ../sass/style.scss */
 .logo {
   position: absolute;
   left: 50%;
@@ -11,16 +13,19 @@ body {
   top: 9px;
 }
 
+/* line 20, ../sass/style.scss */
 .navigation {
   font-family: 'Oswald', sans-serif;
   text-align: center;
   background-color: #124385;
 }
+/* line 24, ../sass/style.scss */
 .navigation ul {
   display: inline-block;
   height: 60px;
   margin: 0;
 }
+/* line 28, ../sass/style.scss */
 .navigation ul li {
   display: inline-block;
   text-align: left;
@@ -30,57 +35,68 @@ body {
   background-color: #124385;
   width: 150px;
 }
+/* line 36, ../sass/style.scss */
 .navigation ul li:nth-child(3) {
   margin-right: 150px;
 }
+/* line 39, ../sass/style.scss */
 .navigation ul li a {
   color: white;
   text-decoration: none;
   line-height: 60px;
   padding: 0 15px;
 }
+/* line 44, ../sass/style.scss */
 .navigation ul li a:hover {
   text-decoration: underline;
 }
 
+/* line 51, ../sass/style.scss */
 .sub-navigation {
   font-family: 'Oswald', sans-serif;
   margin-bottom: 60px;
   text-align: center;
   background-color: #e5ebee;
 }
+/* line 56, ../sass/style.scss */
 .sub-navigation ul {
   display: inline-block;
   height: 60px;
   margin: 0;
   padding: 0;
 }
+/* line 61, ../sass/style.scss */
 .sub-navigation ul li {
   float: left;
   height: 60px;
   width: auto;
   margin: 0;
 }
+/* line 66, ../sass/style.scss */
 .sub-navigation ul li a {
   color: #133944;
   text-decoration: none;
   line-height: 60px;
   padding: 0 15px;
 }
+/* line 71, ../sass/style.scss */
 .sub-navigation ul li a:hover {
   text-decoration: underline;
 }
 
+/* line 81, ../sass/style.scss */
 .container {
   width: 1000px;
   margin: 0 auto;
 }
 
+/* line 85, ../sass/style.scss */
 .read-more-container {
   height: 400px;
   overflow: hidden;
   line-height: 1.5;
 }
+/* line 90, ../sass/style.scss */
 .read-more-container h2 {
   margin-top: 20px;
   font-size: 16px;
@@ -88,10 +104,12 @@ body {
   letter-spacing: 0.01em;
 }
 
+/* line 97, ../sass/style.scss */
 ul {
   list-style: none;
 }
 
+/* line 103, ../sass/style.scss */
 h1 {
   font-size: 20px;
   font-weight: 600;
@@ -101,6 +119,7 @@ h1 {
   padding-bottom: 1%;
 }
 
+/* line 111, ../sass/style.scss */
 h3 {
   font-size: 20px;
   font-weight: 600;
@@ -110,6 +129,7 @@ h3 {
   padding-bottom: 1%;
 }
 
+/* line 124, ../sass/style.scss */
 .button {
   background-color: #1e344c;
   padding: 10px;
@@ -118,30 +138,36 @@ h3 {
   text-decoration: none;
 }
 
+/* line 134, ../sass/style.scss */
 .images-container {
   margin-top: 50px;
   overflow: hidden;
 }
 
+/* line 138, ../sass/style.scss */
 .first-image, .second-image, .third-image {
   float: left;
   width: 30%;
   margin-right: 5%;
 }
+/* line 142, ../sass/style.scss */
 .first-image img, .second-image img, .third-image img {
   max-width: 100%;
 }
 
+/* line 146, ../sass/style.scss */
 .third-image {
   margin-right: 0;
 }
 
+/* line 149, ../sass/style.scss */
 .image-container {
   height: 150px;
   margin-bottom: 20px;
   overflow: hidden;
 }
 
+/* line 157, ../sass/style.scss */
 .lightbox {
   background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
@@ -150,6 +176,7 @@ h3 {
   right: 0;
   bottom: 0;
 }
+/* line 164, ../sass/style.scss */
 .lightbox .lightboxImage {
   position: absolute;
   left: 30%;
@@ -157,6 +184,7 @@ h3 {
   border: 10px solid white;
 }
 
+/* line 174, ../sass/style.scss */
 footer {
   font-family: 'Oswald', sans-serif;
   overflow: hidden;
@@ -169,24 +197,29 @@ footer {
     margin-bottom: 20px;
   } */
 }
+/* line 181, ../sass/style.scss */
 footer nav {
   float: left;
   width: 25%;
   margin-bottom: 20px;
 }
+/* line 190, ../sass/style.scss */
 footer ul {
   margin: 0;
   padding: 0;
 }
+/* line 193, ../sass/style.scss */
 footer ul li {
   margin: 0;
   display: block;
   padding: 10px 0;
 }
+/* line 199, ../sass/style.scss */
 footer a {
   text-decoration: none;
   color: #1e344c;
 }
+/* line 202, ../sass/style.scss */
 footer a:hover {
   text-decoration: underline;
 }
